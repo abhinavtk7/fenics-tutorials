@@ -1,0 +1,2 @@
+c++ -Wall -shared -fPIC -std=c++11 -O2 -I/usr/local/lib/python3.6/dist-packages/ffc/backends/ufc -I/root/.cache/dijitso/include ffc_element_07553bf3dfd33fc6a6f59998eda27264a8b456c3.cpp -L/root/.cache/dijitso/lib -Wl,-rpath,/root/.cache/dijitso/lib -olibdijitso-ffc_element_07553bf3dfd33fc6a6f59998eda27264a8b456c3.so
+

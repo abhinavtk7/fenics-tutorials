@@ -1,0 +1,12 @@
+{
+  "base_url": "/",
+  "hostname": "0.0.0.0",
+  "password": false,
+  "pid": 1,
+  "port": 8888,
+  "root_dir": "/root",
+  "secure": false,
+  "token": "2c63001717bf34c9384225ba80e7436101583a6787491f10",
+  "url": "http://0.0.0.0:8888/",
+  "version": "1.6.4"
+}
