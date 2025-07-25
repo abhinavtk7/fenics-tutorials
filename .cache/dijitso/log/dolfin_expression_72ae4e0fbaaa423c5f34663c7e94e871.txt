@@ -1,0 +1,9 @@
+c++ -Wall -shared -fPIC -std=c++11 -O3 -fno-math-errno -fno-trapping-math -ffinite-math-only -I/usr/local/include -I/usr/local/slepc-32/include -I/usr/local/petsc-32/include -I/usr/include/mpich -I/usr/include/hdf5/mpich -I/usr/include/eigen3 -I/usr/local/lib/python3.6/dist-packages/ffc/backends/ufc -I/root/.cache/dijitso/include dolfin_expression_72ae4e0fbaaa423c5f34663c7e94e871.cpp -L/usr/local/petsc-32/lib -L/usr/local/slepc-32/lib -L/usr/lib/x86_64-linux-gnu/hdf5/mpich -L/usr/local/lib -L/root/.cache/dijitso/lib -Wl,-rpath,/root/.cache/dijitso/lib -lmpich -lmpichcxx -lpetsc -lslepc -lm -ldl -lz -lsz -lhdf5 -lboost_timer -ldolfin -olibdijitso-dolfin_expression_72ae4e0fbaaa423c5f34663c7e94e871.so
+
+/tmp/tmppgewvlg1/dolfin_expression_72ae4e0fbaaa423c5f34663c7e94e871.cpp: In member function ‘virtual double dolfin::dolfin_expression_72ae4e0fbaaa423c5f34663c7e94e871::get_property(std::__cxx11::string) const’:
+/tmp/tmppgewvlg1/dolfin_expression_72ae4e0fbaaa423c5f34663c7e94e871.cpp:75:11: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+           if (name == "disp_step") return disp_step;          if (name == "t") return t;
+           ^~
+/tmp/tmppgewvlg1/dolfin_expression_72ae4e0fbaaa423c5f34663c7e94e871.cpp:75:63: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+           if (name == "disp_step") return disp_step;          if (name == "t") return t;
+                                                               ^~
